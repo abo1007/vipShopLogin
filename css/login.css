@@ -1,0 +1,162 @@
+*{margin:0;padding:0;text-decoration:none;}
+.dis-n{display:none;}
+.dis-b{display:block;}
+#app{
+    /*filter:grayscale(100%);
+    -webkit-filter:grayscale(100%);*/
+}
+.common{
+    width:1000px;
+    margin:0 auto;
+}
+.top{
+    height:100px;
+    display:flex;
+    justify-content:space-between;
+}
+.top .left {
+    height:100px;
+    width:125px;
+    background:url(../img/sprite.png) ;
+    background-position: -308px -57px;
+}
+.top .right{
+    width:304px;
+    height:100px;
+    background:url(../img/sprite.png) ;
+    background-position: 0 0;
+}
+.cen{
+    width:100%;
+    height:650px;
+    background:url(../img/bgc.jpg);
+}
+.cen-content{
+    position: relative;
+}
+.cen-content .login {
+    height:440px;
+    width:360px;
+    background-color: #fff;
+    position: absolute;
+    right:0px;
+    top:50px;
+    overflow:hidden;
+
+}
+.cen-content .login-active{
+    color:#f10180;
+}
+
+.cen-content .login .t{
+    height:50px;
+    display: flex;
+    line-height:50px;
+    border-bottom:1px solid #ccc;
+    color:#333;
+}
+.cen-content .login .t div{
+    flex:1;
+    text-align: center;
+    height:50px;
+    font-size:18px;
+    font-weight:bold;
+
+}
+.cen-content .login .t div:hover{
+    color: #f10180;
+}
+.cen-content .login .t .active{
+    color: #f10180;
+}
+
+
+
+.cen-content .login .w,#w2{
+    height:270px;
+    padding-top:50px;
+}
+
+.cen-content .login .w input{
+    width:300px;
+    height:45px;
+    display: block;
+    margin:0 auto;
+    border-radius:4px;
+    border:1px solid #ccc;
+    padding-left:15px;
+}
+.cen-content .login .w .warning{
+    border:1px solid #ff0000;
+}
+.cen-content .login .w .warning-span{
+    padding-left:20px;
+    color:#ff0000;
+    font-size:13px;
+}
+
+.cen-content .login .w span {
+    display: block;
+    height:20px;
+}
+.cen-content .login .w p{
+    width:300px;
+    height:40px;
+    line-height:40px;
+    margin:0 auto;
+    display:flex;
+    justify-content:space-between;
+}
+.cen-content .login .w p a{
+    color:#000;
+    font-size:14px;
+}
+.cen-content .login .w p a:hover{
+    color:#f10180;
+}
+.cen-content .login .w button{
+    width:300px;
+    height:45px;
+    display:block;
+    margin:10px auto 0;
+    font-size:17px;
+    border:none;
+    border-radius:4px;
+    background-color: #f10180;
+    color:#fff;
+}
+
+#w2 img{
+    display:block;
+    margin:0 auto;
+}
+#w2 p{
+    text-align:center;
+    font-size:15px;
+    margin-top:20px;
+}
+
+
+.cen-content .login .b {
+    padding:0 30px;
+    height:120px;
+    
+}
+.cen-content .login .b p{
+    display:flex;
+    justify-content:space-between;
+}
+.cen-content .login .b p a{
+    color:#333;
+    font-size:14px;
+}
+.cen-content .login .b p a:hover{
+    color:#f10180;
+}
+.bot{
+    height:80px;
+}
+.bot p {
+    text-align:center;
+    line-height:80px;
+}
